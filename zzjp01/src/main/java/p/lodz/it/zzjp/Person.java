@@ -8,8 +8,9 @@ import lombok.Setter;
 public class Person {
 
     private String name;
+    private String surname;
 
     public void sayHello() {
-        System.out.println("Hello im " + name);
+        System.out.println("Hello im " + name + " " + surname);
     }
 }
